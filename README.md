@@ -4,13 +4,13 @@ This repository contains a submission for my Data Engineering course, focused on
 
 ---
 
-### 🧩 Business Problem
+### Business Problem
 
 Real-time data processing is crucial in many modern applications such as fraud detection, live dashboards, and recommendation engines. Apache Kafka is a popular streaming platform that enables ingestion and distribution of real-time events. This lab aimed to simulate a real-world pipeline where data is streamed from producers and handled by consumer applications in real-time.
 
 ---
 
-### 🎯 Project Objectives
+### Project Objectives
 
 - Set up Kafka producers and consumers using Python (`kafka-python` library)
 - Simulate a stream of input messages (e.g., transaction records)
@@ -20,7 +20,7 @@ Real-time data processing is crucial in many modern applications such as fraud d
 
 ---
 
-### 🛠️ Solution Approach
+###  Solution Approach
 
 1. **Kafka Configuration**
    - Launched a local Kafka broker with Zookeeper
@@ -41,7 +41,7 @@ Real-time data processing is crucial in many modern applications such as fraud d
 
 ---
 
-### 💡 Business Value
+###  Business Value
 
 - **Real-Time Monitoring**: Simulates a robust real-time alerting or logging system
 - **Scalable Architecture**: Kafka's decoupled design supports massive throughput
@@ -49,7 +49,7 @@ Real-time data processing is crucial in many modern applications such as fraud d
 
 ---
 
-### 🚧 Challenges Encountered
+###  Challenges Encountered
 
 - Managing Kafka broker setup and local networking
 - Handling malformed messages and consumer timeouts
